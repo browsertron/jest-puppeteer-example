@@ -1,0 +1,19 @@
+{
+  "name": "@browsertron/jest-puppeteer-example",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "puppeteer_tests": 50,
+  "scripts": {
+    "postinstall": "npm run generate",
+    "generate": "node __tests__/generate.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.3.1",
+    "puppeteer": "^1.8.0",
+    "todomvc-cli": "0.0.1"
+  }
+}
